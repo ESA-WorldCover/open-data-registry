@@ -1,5 +1,3 @@
-Deprecated: True
-DeprecatedNotice: This dataset listing has been deprecated with the release of the 2021 & 2020 [ESA WorldCover](https://registry.opendata.aws/esa-worldcover-vito) dataset. For more background on this see this [blog post](https://blog.vito.be/remotesensing/worldcover2021).
 Name: ESA WorldCover 
 Description: The European Space Agency (ESA) WorldCover product provides global land cover maps for 2020 & 2021 at 10 m resolution based on Copernicus Sentinel-1 and Sentinel-2 data. The WorldCover product comes with 11 land cover classes and has been generated in the framework of the ESA WorldCover project, part of the 5th Earth Observation Envelope Programme (EOEP-5) of the European Space Agency. A first version of the product (v100), containing the 2020 map was released in October 2021. The 2021 map was released in October 2022 using an improved algorithm (v200). The WorldCover 2020 and 2021 maps were generated with different algorithm versions and therefore changes between the maps should be treated with caution as these contain both real land cover changes as well as changes due to the used algorithms.
 
@@ -24,6 +22,8 @@ Tags:
   - mapping
   - synthetic aperture radar
   - land cover
+  - land use
+  - machine learning
   - stac
 License: |
  CC-BY 4.0, for Citation see [Citation section](https://esa-worldcover.org/en/data-access) / [DOI](https://doi.org/10.5281/zenodo.5571936)
@@ -78,3 +78,16 @@ DataAtWork:
   - Title: ESA WorldCover 10 m 2021 v200 - Product User Manual
     URL: https://esa-worldcover.s3.eu-central-1.amazonaws.com/v200/2021/docs/WorldCover_PUM_V2.0.pdf
     AuthorName: VITO
+  - Title: WorldCover taking it to the next level
+    URL: https://blog.vito.be/remotesensing/worldcover2021
+    AuthorName: Ruben Van De Kerchove
+  - Title: Accuracy Assessment of ESA WorldCover 2020 and ESRI 2020 Land Cover Maps for a Region in Syria
+    URL: https://link.springer.com/article/10.1007/s41651-022-00126-w
+    AuthorName: Fadi Chaaban, Jamal El Khattabi & Hanan Darwishe 
+  - Title: "Agricultural Land Abandonment in Bulgaria: A Long-Term Remote Sensing Perspective, 1950–1980"
+    URL: https://doi.org/10.3390/land11101855
+    AuthorName: Mustafa Erdem Kabadayı, Paria Ettehadi Osgouei, and Elif Sertel
+  - Title: "Medium Spatial Resolution Mapping of Global Land Cover and Land Cover Change Across Multiple Decades From Landsat"
+    URL: https://www.academia.edu/download/90255348/pdf.pdf
+    AuthorName: Mark A. Friedl, Curtis E. Woodcock, Pontus Olofsson, et al.
+
